@@ -70,10 +70,9 @@ hr {
     padding: 80px 100px 25px;
 }
 
-.tm-post { max-width: 470px; }
+.tm-post { }
 
 .tm-row {
-    max-width: 980px;
     justify-content: space-between;
 }
 
