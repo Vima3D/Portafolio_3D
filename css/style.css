@@ -70,10 +70,10 @@ hr {
     padding: 80px 100px 25px;
 }
 
-.tm-post { }
+.tm-post {max-width: 740px;}
 
 .tm-row {
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .tm-nav { margin-bottom: 100px; }
