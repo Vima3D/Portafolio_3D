@@ -70,6 +70,12 @@ hr {
     padding: 80px 100px 25px;
 }
 
+.wrap {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .tm-post {max-width: 740px;}
 
 .tm-row {
@@ -355,7 +361,7 @@ figcaption { line-height: 1.4; }
 .tm-pt-45 { padding-top: 45px; }
 .tm-pt-60 { padding-top: 60px; }
 .tm-mb-40 { margin-bottom: 40px; }
-.tm-mb-45 { margin-bottom: 45px; }
+.tm-mb-45 { margin-bottom: 45px; max-width: 1150px; margin-left: auto; margin-right: auto; }
 .tm-mb-55 { margin-bottom: 55px; }
 .tm-mb-60 { margin-bottom: 60px; }
 .tm-mb-65 { margin-bottom: 65px; }
@@ -378,7 +384,7 @@ a:hover {
 a:hover figcaption { color: #056767; }
 .img-thumbnail { max-width: none; }
 .tm-about-pad { padding: 40px 35px; }
-.tm-person { max-width: 430px; }
+.tm-person { max-width: 98%; }
 .tm-line-height-short { line-height: 1.8; }
 
 .gmap_canvas {
@@ -532,9 +538,9 @@ a:hover figcaption { color: #056767; }
 @media (max-width: 1199px) and (min-width: 992px) {
     .tm-person-col,
     .tm-contact-left,
-    .tm-contact-right {
-        flex: 0 0 100%;
-        max-width: 100%;
+    .tm-contact-right, {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 
     .tm-contact-right { padding-left: 15px; }
